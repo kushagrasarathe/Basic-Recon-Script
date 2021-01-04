@@ -48,4 +48,4 @@ rm $domain/temp.txt
 echo "[+] Gathering alive domains..."
 cat $domain/final.txt | httprobe > $domain/alive.txt
 
-alive.txt -T4 -oA 
+
