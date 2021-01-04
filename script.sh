@@ -48,6 +48,4 @@ rm $domain/temp.txt
 echo "[+] Gathering alive domains..."
 cat $domain/final.txt | httprobe > $domain/alive.txt
 
-#scanning for posts using nmap
-echo -e "[+] Scanning for open ports..."
-nmap -iL $domain/alive.txt -T4 -oA $domain/scanned.txt
+alive.txt -T4 -oA 
