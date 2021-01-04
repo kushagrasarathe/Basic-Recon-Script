@@ -11,4 +11,4 @@ This is a script made for beginners to automate the task of subdomain enumeratio
 Simply nagivate to project folder and type ```./script.sh``` 
 
 # Features 
-The script uses [subfinder](https://github.com/projectdiscovery/subfinder) and [assetfinder](https://github.com/tomnomnom/assetfinder) to enumerate subdomains, then [httprobe](https://github.com/tomnomnom/httprobe) collects all alive subdomains and then [nmap](https://nmap.org/) is used to look for open ports. The script is still in progress and more cool features will be added soon.
+The script uses [subfinder](https://github.com/projectdiscovery/subfinder) and [assetfinder](https://github.com/tomnomnom/assetfinder) to enumerate subdomains, then [httprobe](https://github.com/tomnomnom/httprobe) collects all alive subdomains. The script is still in progress and more cool features will be added soon.
